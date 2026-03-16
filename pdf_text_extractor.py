@@ -1,3 +1,7 @@
+#Before Creating this project first install two libraries
+#1.) pip install PyPDF2
+#2.) pip install streamlit
+
 import streamlit as st
 from PyPDF2 import PdfReader
     
