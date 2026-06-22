@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>
+            Polyglot - Piratical pyscript
+        </title>
+
+        <link rel="stylesheet" href="https://pyscript.net/releases/2024.10.1/core.css">
+        <script type="module" src="https://pyscript.net/releases/2024.10.1/core.js"></script>
+    </head>
+        
+    <body>
+            <h1>Polyglot System (Type your english word below)</h1>
+            <p>Translate English into pirate speak..</p>
+            <input type="text" name="english" id="english" placeholder="Type English here..">
+            <button py-click="translate_english">Translate</button>
+            <div id="output"></div>
+            <script type="py" src="./pythonscript.py" config="./pyscript.json"></script>  
+    </body>
+</html>
